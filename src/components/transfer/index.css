@@ -1,0 +1,90 @@
+.transfer {
+    display: flex;
+    background-color: #d8d8d8;
+    width: 95vw;
+    height: 230px;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.transfer h2{
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-left: 10px;
+    padding-top: 10px;
+    height: 40px;
+}
+
+.transfer p{
+    color: red;
+}
+
+.transfer form {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-left: 10px;
+    justify-content: flex-start;
+}
+
+.transfer h3 {
+    margin-top: 5px;
+}
+
+.transfer .name-value {
+    width: 15rem;
+    height: 1.5em;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    text-indent: 15px;
+    height: 22px;
+    font-size: 18px;
+
+    /* box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.428); */
+}
+
+.transfer [type=number]{
+    background-color: rgba(255, 255, 255, 0);
+    text-indent: 15px;
+    height: 40px;
+    font-size: 40px;    
+    border-bottom: 2px solid rgba(0, 0, 0, 0.406);
+}
+
+.transfer [type=number]:focus{
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.406);
+    text-indent: none;
+
+}
+
+.transfer #button-enviar {
+    width: 70px;
+    padding: 5px;
+    height: 35px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    align-self: flex-end;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.362);
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 15px;
+}
+
+.transfer #button-enviar:hover{
+    background-color: black;
+    color: white;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

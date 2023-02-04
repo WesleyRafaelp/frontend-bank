@@ -1,0 +1,55 @@
+.form {
+    font-family: 'Caesar Dressing', cursive;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 140px;
+}
+
+.form #area-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+#area-buttons > a {
+    color: white;
+}
+
+#area-buttons input {
+    font-family: 'Caesar Dressing', cursive;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#area-buttons input:hover {
+    border: 2px solid rgba(255, 255, 255, 0.62);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.404);
+    transition: transform 0.3s, border .5s;
+    border-radius: 5px;
+
+}
+
+.campo span {
+    color: white;
+    font-size: 1.5em;
+    width: 30px;
+    padding: 5px;
+}
+.campo input {
+    height: 25px;
+    width: calc(100% - 44px);
+    transform: translateY(-8px);
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.campo p {
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: red;
+    margin-left: 45px;
+}

@@ -1,0 +1,9 @@
+.title {
+    font-family: 'Caesar Dressing', cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+    font-size: 1.8em;
+}

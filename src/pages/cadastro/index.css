@@ -1,0 +1,31 @@
+.cadastro {
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.cadastro > .title {
+    transform: translate(0, -150%);
+}
+
+.cadastro #area-buttons {
+    display: flex;
+}
+
+.cadastro #area-buttons > a {
+    display: none;
+}
+
+.cadastro #area-buttons > input {
+    margin-left: auto;
+}
+
+#alertApi {
+    color: white;
+}

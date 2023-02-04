@@ -1,0 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  background-color: white;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}

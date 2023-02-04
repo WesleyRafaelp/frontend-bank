@@ -1,0 +1,17 @@
+.login {
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.login > .title {
+    transform: translate(0, -100%);
+}
+
+
